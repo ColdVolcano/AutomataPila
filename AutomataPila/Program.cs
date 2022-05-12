@@ -101,10 +101,10 @@ var automaton = new PushdownAutomaton(new List<string>
         { new("q6", null, "F"), new("q3", new List<string> { "F" }) },
         { new("q6", null, "T"), new("q4", new List<string> { "T" }) },
         { new("q6", null, "K"), new("q5", new List<string> { "K" }) },
-        { new("q6", '|', null), new("q7", null) },
+        { new("q6", '|', "@"), new("q7", null) },
     },
     "q0",
-    null,
+    "@",
     new List<string>
     {
         "q7",
