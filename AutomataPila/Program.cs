@@ -97,8 +97,8 @@ var automaton = new PushdownAutomaton(new List<string>
         { new("q5", 'F', "K"), new("q6", null) },
 
         { new("q6", null, "C"), new("q1", new List<string> { "C" }) },
-        { new("q6", null, "F"), new("q2", new List<string> { "F" }) },
-        { new("q6", null, "J"), new("q3", new List<string> { "J" }) },
+        { new("q6", null, "J"), new("q2", new List<string> { "J" }) },
+        { new("q6", null, "F"), new("q3", new List<string> { "F" }) },
         { new("q6", null, "T"), new("q4", new List<string> { "T" }) },
         { new("q6", null, "K"), new("q5", new List<string> { "K" }) },
         { new("q6", '|', null), new("q7", null) },
